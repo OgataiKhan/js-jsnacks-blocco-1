@@ -7,7 +7,7 @@ let totalSum = 0;
 for (let i = 0; i < 10; i++) {
     let number = prompt("Enter a number of your choice:");
     totalSum += Number(number);
-    console.log(number);
+    console.log(`You entered: ${number}`);
 }
 
 // I print the totalSum variable, now the sum of all entered numbers, into the console
