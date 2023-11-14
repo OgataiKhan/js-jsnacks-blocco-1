@@ -1,5 +1,6 @@
 'use strict';
 
+/*
 const numbersArray = []; // Create an empty array
 let sum = 0; // Initialize an empty variable to keep track of the total sum
 
@@ -12,11 +13,13 @@ while (sum < 50) {
     console.log(`Sum: ${sum}`); // Print the total sum on each iteration
 }
 
-console.log('The total sum is now equal or greater than 50.');
+if (!isNaN(sum)) {
+    console.log('The total sum is now equal or greater than 50.');
+}
+*/
 
-/*
 const numbersArray2 = [];
-let sum2 = 0;
+let sum2 = 60;
 
 do {
     let number2 = parseFloat(prompt('Please insert a number'));
@@ -26,5 +29,7 @@ do {
     console.log(`Sum: ${sum2}`);
 } while (sum2 < 50);
 
-console.log('The total sum is now equal or greater than 50.');
-*/
+if (!isNaN(sum2)) {
+    console.log('The total sum is now equal or greater than 50.');
+}
+
