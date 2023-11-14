@@ -1,6 +1,5 @@
 'use strict';
 
-/*
 const numbersArray = []; // Create an empty array
 let sum = 0; // Initialize an empty variable to keep track of the total sum
 
@@ -14,7 +13,6 @@ while (sum < 50) {
 }
 
 console.log('The total sum is now equal or greater than 50.');
-*/
 
 /*
 const numbersArray2 = [];
@@ -30,7 +28,3 @@ do {
 
 console.log('The total sum is now equal or greater than 50.');
 */
-
-const numbersArray3 = [];
-let sum3 = 0;
-
